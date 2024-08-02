@@ -14,12 +14,30 @@
 
 ## 사용법
 
-import TypingComponent from './TypingEffect';
+```js
+import TypingComponent from "./TypingEffect";
 
 function App() {
-return <TypingComponent inputText="This is typing effect!" typingSpeed="200"/>
+  return (
+    <TypingComponent inputText="This is typing effect!" typingSpeed="200" />
+  );
 }
+```
 
 ## License
 
 이 프로젝트는 MIT 라이선스입니다. 자유롭게 사용해주세요.
+
+# Tiny Sangtae
+
+Tiny Sangtae is a state management library written in TypeScript. It can be used with Vanilla JS and React.
+
+'Sangtae' means 'state' in Korean.
+
+## Install
+
+```shell
+npm install tiny-sangtae
+```
+
+## Usage
