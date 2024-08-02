@@ -1,13 +1,7 @@
 import TypingComponent from './TypingEffect';
 
-
 function App() {
-  return (
-    <div>
-      <h1><TypingComponent inputText="Hello 안녕" typingSpeed="500"/></h1>
-      
-    </div>
-  );
+  return <TypingComponent inputText="This is typing effect!" typingSpeed="200"/>
 }
 
 export default App;

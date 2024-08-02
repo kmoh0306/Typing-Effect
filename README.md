@@ -14,6 +14,12 @@
 
 ## 사용법
 
+import TypingComponent from './TypingEffect';
+
+function App() {
+return <TypingComponent inputText="This is typing effect!" typingSpeed="200"/>
+}
+
 ## License
 
 이 프로젝트는 MIT 라이선스입니다. 자유롭게 사용해주세요.

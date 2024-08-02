@@ -146,7 +146,6 @@ const TypingComponent = ({inputText, typingSpeed }) => {
     
     const timer = setTimeout(() => {
       if (index < textToType.length) {
-        console.log(index);  
         setText((prevText) => prevText + textToType.charAt(index));
         setIndex((prevIndex) => prevIndex + 1);
       }
